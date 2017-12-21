@@ -113,6 +113,7 @@
     <Compile Include="Miners\XmrStak\XmrStakAMD.cs" />
     <Compile Include="Miners\XmrStak\XmrStakConfig.cs" />
     <Compile Include="Miners\Xmrig.cs" />
+    <Compile Include="Miners\ZMiner.cs" />
     <Compile Include="NiceHashStats.cs" />
     <Compile Include="Utils\AlgorithmNiceHashNames.cs" />
     <Compile Include="Configs\ConfigJsonFile\FOLDERS.cs" />
