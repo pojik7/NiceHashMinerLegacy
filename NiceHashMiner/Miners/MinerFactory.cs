@@ -59,6 +59,8 @@ namespace NiceHashMiner.Miners {
                     return CreateExperimental(deviceType, algorithmType);
                 case MinerBaseType.EWBF:
                     return new EWBF();
+                case MinerBaseType.ZMiner:
+                    return new ZMiner();
                 case MinerBaseType.Prospector:
                     return new Prospector();
                 case MinerBaseType.Xmrig:
